@@ -1,0 +1,162 @@
+/*******************************classes*****************************/
+.big-heading {
+  font-size: 3.5rem;
+  font-weight: 800;
+  line-height: 1.5;
+}
+
+.container-fluid {
+  padding: 3% 13% 7% 13%;
+}
+
+.center {
+  text-align: center;
+  padding: 10% 3%;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+
+
+.features-icon {
+  color: #ef8172;
+  font-size: 3.5rem;
+  margin:0 5%;
+  padding: 3%;
+}
+
+.features-icon:hover {
+  color: #ff4c68;
+}
+
+.features-p {
+  color: #8f8f8f;
+}
+
+.medium-heading {
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+.navbar {
+  padding-bottom: 4.5rem;
+  padding-left: 0;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+  font-family: "Ubuntu";
+  font-weight: bold;
+}
+
+.nav-item {
+  font-size: 1.2rem;
+  padding: 0 18px;
+}
+
+.pricing-col {
+  padding: 3% 2%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.small-heading {
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+.title-img {
+  width: 55%;
+  transform: rotate(25deg);
+  margin-left: 10%;
+  margin-top: 10%;
+  padding-bottom: 5%;
+  position: absolute;
+}
+
+@media (max-width: 1028px) {
+  .title-img {
+    position: static;
+    transform: rotate(0);
+    width: 80%;
+    margin-left: 0;
+  }
+  #title {
+    text-align: center;
+  }
+}
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+/*****************************ids*********************************/
+#cta {
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: center;
+
+  padding: 5% 27%;
+}
+
+#footer {
+  padding: 7% 13%;
+  text-align: center;
+}
+
+#footer a {
+  text-decoration: none;
+  margin-bottom: 3%;
+}
+
+#footer a:hover {
+  font-size: 1.2rem;
+}
+
+#press {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+  padding-bottom: 3%;
+}
+
+#title {
+  background: #ff4c68;
+  color: white;
+}
+
+#features {
+  background-color: #fff;
+  position: relative;
+  margin: 0 7%;
+}
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+/****************************tags********************************/
+body {
+  font-family: "Montserrat";
+}
+
+h1, h2, h3 {
+   font-family: 'Montserrat-Black', sans-serif;
+}

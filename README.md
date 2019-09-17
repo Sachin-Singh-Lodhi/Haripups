@@ -1,2 +1,1 @@
-# Haripups
-Site for puppies
+TinDog Starting Files
